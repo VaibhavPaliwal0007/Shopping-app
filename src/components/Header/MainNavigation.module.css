@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Product_Sans';
+  src: '../../assets/fonts/Product_Sans.ttf';
+}
+
+.header {
+    max-width: 100%;
+    height: 5rem;
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+    margin: 2rem 0;
+    /* align-items: center; */
+}
+
+.logo img{
+  max-width: 50%;
+  max-height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logo{
+  margin-right: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0.8rem 0;
+    padding: 0;
+    font-family: 'Product_Sans';
+}
+
+.nav li {
+    margin-left: 1.5rem;
+    font-size: 1rem;
+}
+
+.nav a {
+    color: #151919;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    margin: 0.8rem 0;
+    font-family: 'Product_Sans';
+}
+
+.profile p{
+  margin: 0;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.profile img{
+  max-width: 30px;
+  max-height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+    color: #131616;
+}
